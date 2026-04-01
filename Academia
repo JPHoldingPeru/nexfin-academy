@@ -1,0 +1,14 @@
+<h2>NEXFIN Academy</h2>
+
+<input id="email" placeholder="Email">
+<input id="password" type="password">
+
+<button onclick="register()">Registrarse</button>
+<button onclick="login()">Login</button>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+<script src="js/firebase.js"></script>
+<script src="js/auth.js"></script>
